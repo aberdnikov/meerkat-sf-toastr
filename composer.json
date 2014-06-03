@@ -1,0 +1,27 @@
+{
+        "name": "meerkat/meerkat-sf-toastr",
+        "type": "kohana-module",
+        "description": "StaticFiles library for MeerkatCMF (on Kohana 3.3)",
+        "homepage": "https://github.com/CodeSeven/toastr",
+		"license": "MIT",
+        "keywords": ["kohana", "module", "meerkat", "static-files"],
+        "authors": [
+                {
+                        "name": "John Papa and Hans Fjällemark",
+                        "homepage": "https://github.com/CodeSeven/toastr",
+                        "role": "Developer"
+                },		
+                {
+                        "name": "Alexey Berdnikov",
+                        "email": "aberdnikov@gmail.com",
+                        "homepage": "https://github.com/aberdnikov",
+                        "role": "Module maintainer"
+                }
+        ],
+        "require": {
+                "php": ">=5.3",
+                "composer/installers": "*",
+                "meerkat/meerkat-staticfiles": "*",
+                "meerkat/meerkat-route": "*"
+        }		
+ }
